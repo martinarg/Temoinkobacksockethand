@@ -1,0 +1,29 @@
+{
+  "name": "backendtemoinko2",
+  "version": "1.0.0",
+  "description": "backend estudiando node coderhouse",
+  "main": "Public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/martinarg/Temoinkobacksockethand.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https:github.com/martinarg/Temoinkobacksockethand/issues"
+  },
+  "homepage": "https:github.com/martinarg/Temoinkobacksockethand#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "node": "^19.2.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
