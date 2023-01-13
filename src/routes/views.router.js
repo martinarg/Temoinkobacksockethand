@@ -1,9 +1,19 @@
 import  express from "express";
-import products from "../utils/products";
+import utils from "../utils/products.js";
+
+
 const router = express.Router();
 
+
+
 router.get("/", (req, res) =>{
-    const productse = products.products[products.getRandomInt(utils.products.length)]
+    const product = utils.products;
+
+    const productse = {
+        title :"hola",
+        style : "styles.css",
+        productos : product};
+  
   res.render("product",productse);
 })
 

@@ -31,10 +31,12 @@ app.get("/", (req, res) => {
 app.use("/realtimeproducts", viewsRoute);
 
 socketServer.on("connection", (socket)=>{
-    console.log("hola");
-    socket.emit("message", "birnvenido al servidor");
+    console.log("hola perreke");
+    socket.emit("product", );
     socket.on("message", (data)=>{
         console.log(data);
     })
 });
+
+
 
