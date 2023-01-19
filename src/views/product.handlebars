@@ -1,9 +1,11 @@
-<div>
+<div id="basecero">
+<div id="base">
     {{#each productos}}
-        <div>
+        <div >
            <p> {{this.title}} </p>
-             <p> {{this.description}} </p>
+           <p> {{this.description}} </p>
+           <img class="image" src="{{this.thumbnail}}"></img>
         </div>
     {{/each}}
 </div>
-<P></P>
+</div>
